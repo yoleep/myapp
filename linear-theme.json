@@ -1,0 +1,263 @@
+{
+  "theme": {
+    "name": "Linear Design System",
+    "version": "1.0.0",
+    "description": "Linear.app의 완전한 디자인 시스템 테마",
+    "extractedFrom": "https://linear.app",
+    "extractedDate": "2025-08-22"
+  },
+  "colors": {
+    "brand": {
+      "primary": "#5e6ad2",
+      "primaryText": "#fff",
+      "accent": "#7170ff",
+      "accentHover": "#828fff",
+      "blue": "#4ea7fc",
+      "indigo": "#5e6ad2"
+    },
+    "background": {
+      "primary": "#08090a",
+      "secondary": "#1c1c1f", 
+      "tertiary": "#232326",
+      "quaternary": "#28282c",
+      "marketing": "#010102",
+      "translucent": "hsla(0,0%,100%,.05)",
+      "quinary": "#282828"
+    },
+    "text": {
+      "primary": "#f7f8f8",
+      "secondary": "#d0d6e0", 
+      "tertiary": "#8a8f98",
+      "quaternary": "#62666d"
+    },
+    "border": {
+      "primary": "#23252a",
+      "secondary": "#34343a",
+      "tertiary": "#3e3e44", 
+      "translucent": "hsla(0,0%,100%,.05)"
+    },
+    "link": {
+      "primary": "#828fff",
+      "hover": "#fff"
+    },
+    "status": {
+      "red": "#eb5757",
+      "green": "#4cb782", 
+      "orange": "#fc7840",
+      "yellow": "#f2c94c"
+    },
+    "functional": {
+      "white": "#fff",
+      "black": "#000",
+      "transparent": "hsla(0,0%,100%,0)"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "primary": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "serif": "\"Tiempos Headline\", ui-serif, Georgia, Cambria, \"Times New Roman\", Times, serif",
+      "monospace": "\"Berkeley Mono\", ui-monospace, \"SF Mono\", \"Menlo\", monospace",
+      "emoji": "\"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\", \"Segoe UI\", \"Twemoji Mozilla\", \"Noto Color Emoji\", \"Android Emoji\""
+    },
+    "fontWeight": {
+      "light": "300",
+      "normal": "400", 
+      "medium": "510",
+      "semibold": "590",
+      "bold": "680"
+    },
+    "fontSize": {
+      "micro": "0.6875rem",
+      "mini": "0.75rem",
+      "small": "0.8125rem", 
+      "regular": "0.9375rem",
+      "large": "1.125rem",
+      "title1": "2.25rem",
+      "title2": "1.5rem",
+      "title3": "1.25rem"
+    },
+    "headings": {
+      "h1": {
+        "fontSize": "64px",
+        "fontWeight": "510",
+        "lineHeight": "67.84px",
+        "letterSpacing": "-1.408px",
+        "color": "#f7f8f8"
+      },
+      "h2": {
+        "fontSize": "56px", 
+        "fontWeight": "538",
+        "lineHeight": "61.6px",
+        "letterSpacing": "-1.82px",
+        "color": "#f7f8f8"
+      },
+      "h3": {
+        "fontSize": "21px",
+        "fontWeight": "510", 
+        "lineHeight": "28px",
+        "letterSpacing": "-0.37px",
+        "color": "#f7f8f8"
+      }
+    }
+  },
+  "spacing": {
+    "radius": {
+      "4": "4px",
+      "6": "6px",
+      "8": "8px", 
+      "12": "12px",
+      "16": "16px",
+      "24": "24px",
+      "32": "32px",
+      "rounded": "9999px",
+      "circle": "50%"
+    },
+    "layout": {
+      "headerHeight": "64px",
+      "pagePaddingInline": "24px",
+      "pagePaddingBlock": "64px",
+      "pageMaxWidth": "1024px",
+      "proseMaxWidth": "624px"
+    }
+  },
+  "components": {
+    "header": {
+      "background": "hsla(0,0%,4%,.8)",
+      "border": "hsla(0,0%,100%,.08)",
+      "backdrop": "20px",
+      "height": "64px",
+      "padding": "0px",
+      "zIndex": "100"
+    },
+    "navigation": {
+      "link": {
+        "color": "#8a8f98",
+        "fontSize": "13px",
+        "fontWeight": "510",
+        "textDecoration": "none"
+      },
+      "linkHover": {
+        "color": "#f7f8f8"
+      }
+    },
+    "buttons": {
+      "primary": {
+        "background": "#5e6ad2",
+        "color": "#fff",
+        "borderRadius": "8px",
+        "padding": "0px 12px",
+        "fontSize": "13px",
+        "fontWeight": "510",
+        "border": "0px"
+      },
+      "secondary": {
+        "background": "transparent",
+        "color": "#8a8f98", 
+        "borderRadius": "8px",
+        "padding": "0px 12px",
+        "fontSize": "13px",
+        "fontWeight": "510",
+        "border": "0px"
+      }
+    },
+    "layout": {
+      "body": {
+        "background": "#08090a",
+        "color": "#f7f8f8",
+        "margin": "0px",
+        "padding": "0px"
+      },
+      "main": {
+        "background": "transparent",
+        "padding": "64px 0px 0px"
+      },
+      "footer": {
+        "background": "#08090a", 
+        "color": "#f7f8f8",
+        "padding": "0px"
+      }
+    }
+  },
+  "effects": {
+    "shadows": {
+      "none": "0px 0px 0px transparent",
+      "low": "0px 8px 2px 0px transparent, 0px 5px 2px 0px rgba(0,0,0,.01), 0px 3px 2px 0px rgba(0,0,0,.04), 0px 1px 1px 0px rgba(0,0,0,.07), 0px 0px 1px 0px rgba(0,0,0,.08)"
+    },
+    "blur": {
+      "header": "20px"
+    },
+    "transitions": {
+      "quick": "0.1s",
+      "regular": "0.25s",
+      "highlightFadeIn": "0s",
+      "highlightFadeOut": "0.15s"
+    },
+    "easing": {
+      "inQuad": "cubic-bezier(0.55,0.085,0.68,0.53)",
+      "outQuad": "cubic-bezier(0.25,0.46,0.45,0.94)",
+      "inOutQuad": "cubic-bezier(0.455,0.03,0.515,0.955)"
+    }
+  },
+  "zIndex": {
+    "max": "10000",
+    "debug": "5100",
+    "skipNav": "5000", 
+    "contextMenu": "1200",
+    "tooltip": "1100",
+    "toasts": "800",
+    "dialog": "700",
+    "dialogOverlay": "699",
+    "commandMenu": "650",
+    "popover": "600",
+    "overlay": "500",
+    "header": "100",
+    "scrollbar": "75",
+    "footer": "50"
+  },
+  "scrollbar": {
+    "color": "hsla(0,0%,100%,.1)",
+    "colorHover": "hsla(0,0%,100%,.2)",
+    "colorActive": "hsla(0,0%,100%,.4)",
+    "size": "6px",
+    "sizeActive": "10px",
+    "gap": "4px"
+  },
+  "cssVariables": {
+    "coreColors": {
+      "--color-bg-primary": "#08090a",
+      "--color-bg-secondary": "#1c1c1f",
+      "--color-text-primary": "#f7f8f8",
+      "--color-text-secondary": "#d0d6e0",
+      "--color-brand-bg": "#5e6ad2",
+      "--color-brand-text": "#fff",
+      "--color-accent": "#7170ff",
+      "--color-accent-hover": "#828fff"
+    },
+    "layout": {
+      "--header-height": "64px",
+      "--page-padding-inline": "24px",
+      "--page-max-width": "1024px",
+      "--radius-8": "8px",
+      "--radius-rounded": "9999px"
+    },
+    "typography": {
+      "--font-regular": "\"Inter Variable\", \"SF Pro Display\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Oxygen, Ubuntu, Cantarell, \"Open Sans\", \"Helvetica Neue\", sans-serif",
+      "--font-weight-medium": "510",
+      "--font-weight-semibold": "590"
+    }
+  },
+  "usage": {
+    "description": "이 테마 데이터를 사용하여 Linear.app과 동일한 디자인 시스템을 구현할 수 있습니다.",
+    "implementation": {
+      "css": "CSS 변수로 직접 사용 가능",
+      "tailwind": "Tailwind CSS config에서 커스텀 색상으로 사용 가능", 
+      "styledComponents": "styled-components의 theme으로 사용 가능",
+      "emotion": "Emotion의 theme으로 사용 가능"
+    },
+    "examples": {
+      "cssVariable": "var(--color-bg-primary)",
+      "tailwindConfig": "colors: { brand: { primary: '#5e6ad2' } }",
+      "styledTheme": "background: ${props => props.theme.colors.background.primary}"
+    }
+  }
+}

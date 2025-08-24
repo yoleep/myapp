@@ -1,0 +1,71 @@
+{
+  "extends": ["next/core-web-vitals"],
+  "rules": {
+    "no-restricted-elements": [
+      "error",
+      {
+        "restrict": [
+          {
+            "selector": "button",
+            "message": "Use <Button> component from '@/components' instead of native <button>"
+          },
+          {
+            "selector": "input",
+            "message": "Use <Input> component from '@/components' instead of native <input>"
+          },
+          {
+            "selector": "select",
+            "message": "Use <Select> component from '@/components' instead of native <select>"
+          },
+          {
+            "selector": "table",
+            "message": "Use <List> component from '@/components' instead of native <table>"
+          }
+        ]
+      }
+    ],
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": ["*.css", "*.scss", "*.sass"],
+            "message": "Use styled-components with theme instead of CSS files"
+          }
+        ]
+      }
+    ],
+    "no-restricted-syntax": [
+      "warn",
+      {
+        "selector": "JSXAttribute[name.name='style']",
+        "message": "Avoid inline styles. Use styled-components with theme tokens instead"
+      },
+      {
+        "selector": "JSXAttribute[name.name='className']",
+        "message": "Avoid className. Use styled-components instead"
+      }
+    ],
+    "@typescript-eslint/no-explicit-any": "warn",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/prop-types": "off",
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "overrides": [
+    {
+      "files": ["*.tsx", "*.ts"],
+      "rules": {
+        "@typescript-eslint/consistent-type-imports": [
+          "warn",
+          {
+            "prefer": "type-imports",
+            "disallowTypeAnnotations": false
+          }
+        ]
+      }
+    }
+  ]
+}
